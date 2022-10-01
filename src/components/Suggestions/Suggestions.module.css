@@ -1,0 +1,73 @@
+.suggestions {
+    position: sticky;
+    top: 20px;
+}
+
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.grid_row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 100%);
+    align-items: center;
+}
+
+.content {
+    height: 55px;
+    grid-area: 1 / 1 / 2 / 6;
+}
+.action {
+    grid-area: 1 / 6 / 2 / 7;
+    color: blue;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.my_profile {
+    display: flex;
+    align-items: center;
+}
+
+.my_profile span {
+    margin-left: 20px;
+}
+
+.my_profile img {
+    border-radius: 50%;
+    max-height: 70px;
+    align-items: center;
+    width: auto;
+}
+
+.suggested_profiles img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.suggested_profiles {
+    display: flex;
+    align-items: center;
+}
+
+.suggested_info_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    max-width: 78%;
+}
+
+.suggested_info {
+    color: gray;
+    font-weight: 400;
+    font-size: '12px';
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

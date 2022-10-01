@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer p {
+  color: #8e8e8e;
+  margin: 8px;
+  font-size: 14px;
+  line-height: 16px;
+}
